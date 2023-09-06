@@ -11,7 +11,7 @@ def show_address_climate(s1):
 
 #    load the data and find the indices for the lat and lon from the geotiles
     bin_edges=np.arange(-125,-64,4)
-    print(bin_edges)
+#    print(bin_edges)
     fn_list=['nclimgrid_stats_monthly_slim_(-125--121).npz',
          'nclimgrid_stats_monthly_slim_(-121--117).npz',
          'nclimgrid_stats_monthly_slim_(-117--113).npz',
